@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		961EB7F61DDE59F60088DC55 /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961EB7F51DDE59F60088DC55 /* VoteViewController.swift */; };
 		961EB7F81DDE5BE90088DC55 /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961EB7F71DDE5BE90088DC55 /* FollowingViewController.swift */; };
+		961EB7FA1DDE5FC10088DC55 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961EB7F91DDE5FC10088DC55 /* PhotoViewController.swift */; };
 		96CDF9641DDD854800A0E8C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9631DDD854800A0E8C9 /* AppDelegate.swift */; };
 		96CDF9661DDD854800A0E8C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9651DDD854800A0E8C9 /* ViewController.swift */; };
 		96CDF96B1DDD854800A0E8C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CDF96A1DDD854800A0E8C9 /* Assets.xcassets */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		961EB7F51DDE59F60088DC55 /* VoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteViewController.swift; sourceTree = "<group>"; };
 		961EB7F71DDE5BE90088DC55 /* FollowingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
+		961EB7F91DDE5FC10088DC55 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		96CDF9601DDD854800A0E8C9 /* the-real-spectiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "the-real-spectiv.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CDF9631DDD854800A0E8C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96CDF9651DDD854800A0E8C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				96CDF96A1DDD854800A0E8C9 /* Assets.xcassets */,
 				96CDF96C1DDD854800A0E8C9 /* LaunchScreen.storyboard */,
 				961EB7F51DDE59F60088DC55 /* VoteViewController.swift */,
+				961EB7F91DDE5FC10088DC55 /* PhotoViewController.swift */,
 				96CDF9961DDD85BD00A0E8C9 /* ProfileViewController.swift */,
 				961EB7F71DDE5BE90088DC55 /* FollowingViewController.swift */,
 				96CDF9971DDD85BD00A0E8C9 /* SearchViewController.swift */,
@@ -283,6 +286,7 @@
 				96CDF9661DDD854800A0E8C9 /* ViewController.swift in Sources */,
 				961EB7F61DDE59F60088DC55 /* VoteViewController.swift in Sources */,
 				96CDF99C1DDD85BD00A0E8C9 /* PictureCollectionViewCell.swift in Sources */,
+				961EB7FA1DDE5FC10088DC55 /* PhotoViewController.swift in Sources */,
 				96CDF99A1DDD85BD00A0E8C9 /* ProfileViewController.swift in Sources */,
 				96CDF9641DDD854800A0E8C9 /* AppDelegate.swift in Sources */,
 			);
