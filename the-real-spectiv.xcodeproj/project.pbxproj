@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		961EB7F61DDE59F60088DC55 /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961EB7F51DDE59F60088DC55 /* VoteViewController.swift */; };
+		961EB7F81DDE5BE90088DC55 /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961EB7F71DDE5BE90088DC55 /* FollowingViewController.swift */; };
 		96CDF9641DDD854800A0E8C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9631DDD854800A0E8C9 /* AppDelegate.swift */; };
 		96CDF9661DDD854800A0E8C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9651DDD854800A0E8C9 /* ViewController.swift */; };
 		96CDF96B1DDD854800A0E8C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CDF96A1DDD854800A0E8C9 /* Assets.xcassets */; };
@@ -15,7 +17,6 @@
 		96CDF9841DDD854900A0E8C9 /* the_real_spectivUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9831DDD854900A0E8C9 /* the_real_spectivUITests.swift */; };
 		96CDF9921DDD858C00A0E8C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CDF9911DDD858C00A0E8C9 /* Main.storyboard */; };
 		96CDF9941DDD85A300A0E8C9 /* Sam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96CDF9931DDD85A300A0E8C9 /* Sam.jpg */; };
-		96CDF9991DDD85BD00A0E8C9 /* ContestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9951DDD85BD00A0E8C9 /* ContestViewController.swift */; };
 		96CDF99A1DDD85BD00A0E8C9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9961DDD85BD00A0E8C9 /* ProfileViewController.swift */; };
 		96CDF99B1DDD85BD00A0E8C9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9971DDD85BD00A0E8C9 /* SearchViewController.swift */; };
 		96CDF99C1DDD85BD00A0E8C9 /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9981DDD85BD00A0E8C9 /* PictureCollectionViewCell.swift */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		961EB7F51DDE59F60088DC55 /* VoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteViewController.swift; sourceTree = "<group>"; };
+		961EB7F71DDE5BE90088DC55 /* FollowingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
 		96CDF9601DDD854800A0E8C9 /* the-real-spectiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "the-real-spectiv.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CDF9631DDD854800A0E8C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96CDF9651DDD854800A0E8C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,7 +56,6 @@
 		96CDF9851DDD854900A0E8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96CDF9911DDD858C00A0E8C9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		96CDF9931DDD85A300A0E8C9 /* Sam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sam.jpg; sourceTree = "<group>"; };
-		96CDF9951DDD85BD00A0E8C9 /* ContestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContestViewController.swift; sourceTree = "<group>"; };
 		96CDF9961DDD85BD00A0E8C9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		96CDF9971DDD85BD00A0E8C9 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		96CDF9981DDD85BD00A0E8C9 /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -112,8 +114,9 @@
 				96CDF9651DDD854800A0E8C9 /* ViewController.swift */,
 				96CDF96A1DDD854800A0E8C9 /* Assets.xcassets */,
 				96CDF96C1DDD854800A0E8C9 /* LaunchScreen.storyboard */,
-				96CDF9951DDD85BD00A0E8C9 /* ContestViewController.swift */,
+				961EB7F51DDE59F60088DC55 /* VoteViewController.swift */,
 				96CDF9961DDD85BD00A0E8C9 /* ProfileViewController.swift */,
+				961EB7F71DDE5BE90088DC55 /* FollowingViewController.swift */,
 				96CDF9971DDD85BD00A0E8C9 /* SearchViewController.swift */,
 				96CDF9981DDD85BD00A0E8C9 /* PictureCollectionViewCell.swift */,
 				96CDF96F1DDD854800A0E8C9 /* Info.plist */,
@@ -275,9 +278,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961EB7F81DDE5BE90088DC55 /* FollowingViewController.swift in Sources */,
 				96CDF99B1DDD85BD00A0E8C9 /* SearchViewController.swift in Sources */,
 				96CDF9661DDD854800A0E8C9 /* ViewController.swift in Sources */,
-				96CDF9991DDD85BD00A0E8C9 /* ContestViewController.swift in Sources */,
+				961EB7F61DDE59F60088DC55 /* VoteViewController.swift in Sources */,
 				96CDF99C1DDD85BD00A0E8C9 /* PictureCollectionViewCell.swift in Sources */,
 				96CDF99A1DDD85BD00A0E8C9 /* ProfileViewController.swift in Sources */,
 				96CDF9641DDD854800A0E8C9 /* AppDelegate.swift in Sources */,
@@ -515,6 +519,7 @@
 				96CDF98A1DDD854900A0E8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96CDF98B1DDD854900A0E8C9 /* Build configuration list for PBXNativeTarget "the-real-spectivTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				96CDF98D1DDD854900A0E8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96CDF98E1DDD854900A0E8C9 /* Build configuration list for PBXNativeTarget "the-real-spectivUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +537,7 @@
 				96CDF9901DDD854900A0E8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
