@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96CDF9641DDD854800A0E8C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9631DDD854800A0E8C9 /* AppDelegate.swift */; };
+		96CDF9661DDD854800A0E8C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9651DDD854800A0E8C9 /* ViewController.swift */; };
+		96CDF9691DDD854800A0E8C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CDF9671DDD854800A0E8C9 /* Main.storyboard */; };
+		96CDF96B1DDD854800A0E8C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CDF96A1DDD854800A0E8C9 /* Assets.xcassets */; };
+		96CDF96E1DDD854800A0E8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CDF96C1DDD854800A0E8C9 /* LaunchScreen.storyboard */; };
+		96CDF9791DDD854900A0E8C9 /* the_real_spectivTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9781DDD854900A0E8C9 /* the_real_spectivTests.swift */; };
+		96CDF9841DDD854900A0E8C9 /* the_real_spectivUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9831DDD854900A0E8C9 /* the_real_spectivUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96CDF9751DDD854800A0E8C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CDF9581DDD854800A0E8C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96CDF95F1DDD854800A0E8C9;
+			remoteInfo = "the-real-spectiv";
+		};
+		96CDF9801DDD854900A0E8C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96CDF9581DDD854800A0E8C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96CDF95F1DDD854800A0E8C9;
+			remoteInfo = "the-real-spectiv";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96CDF9601DDD854800A0E8C9 /* the-real-spectiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "the-real-spectiv.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CDF9631DDD854800A0E8C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96CDF9651DDD854800A0E8C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		96CDF9681DDD854800A0E8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96CDF96A1DDD854800A0E8C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96CDF96D1DDD854800A0E8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96CDF96F1DDD854800A0E8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CDF9741DDD854800A0E8C9 /* the-real-spectivTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "the-real-spectivTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CDF9781DDD854900A0E8C9 /* the_real_spectivTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_real_spectivTests.swift; sourceTree = "<group>"; };
+		96CDF97A1DDD854900A0E8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CDF97F1DDD854900A0E8C9 /* the-real-spectivUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "the-real-spectivUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96CDF9831DDD854900A0E8C9 /* the_real_spectivUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_real_spectivUITests.swift; sourceTree = "<group>"; };
+		96CDF9851DDD854900A0E8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96CDF95D1DDD854800A0E8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CDF9711DDD854800A0E8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CDF97C1DDD854900A0E8C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96CDF9571DDD854800A0E8C9 = {
+			isa = PBXGroup;
+			children = (
+				96CDF9621DDD854800A0E8C9 /* the-real-spectiv */,
+				96CDF9771DDD854900A0E8C9 /* the-real-spectivTests */,
+				96CDF9821DDD854900A0E8C9 /* the-real-spectivUITests */,
+				96CDF9611DDD854800A0E8C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96CDF9611DDD854800A0E8C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96CDF9601DDD854800A0E8C9 /* the-real-spectiv.app */,
+				96CDF9741DDD854800A0E8C9 /* the-real-spectivTests.xctest */,
+				96CDF97F1DDD854900A0E8C9 /* the-real-spectivUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96CDF9621DDD854800A0E8C9 /* the-real-spectiv */ = {
+			isa = PBXGroup;
+			children = (
+				96CDF9631DDD854800A0E8C9 /* AppDelegate.swift */,
+				96CDF9651DDD854800A0E8C9 /* ViewController.swift */,
+				96CDF9671DDD854800A0E8C9 /* Main.storyboard */,
+				96CDF96A1DDD854800A0E8C9 /* Assets.xcassets */,
+				96CDF96C1DDD854800A0E8C9 /* LaunchScreen.storyboard */,
+				96CDF96F1DDD854800A0E8C9 /* Info.plist */,
+			);
+			path = "the-real-spectiv";
+			sourceTree = "<group>";
+		};
+		96CDF9771DDD854900A0E8C9 /* the-real-spectivTests */ = {
+			isa = PBXGroup;
+			children = (
+				96CDF9781DDD854900A0E8C9 /* the_real_spectivTests.swift */,
+				96CDF97A1DDD854900A0E8C9 /* Info.plist */,
+			);
+			path = "the-real-spectivTests";
+			sourceTree = "<group>";
+		};
+		96CDF9821DDD854900A0E8C9 /* the-real-spectivUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96CDF9831DDD854900A0E8C9 /* the_real_spectivUITests.swift */,
+				96CDF9851DDD854900A0E8C9 /* Info.plist */,
+			);
+			path = "the-real-spectivUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96CDF95F1DDD854800A0E8C9 /* the-real-spectiv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CDF9881DDD854900A0E8C9 /* Build configuration list for PBXNativeTarget "the-real-spectiv" */;
+			buildPhases = (
+				96CDF95C1DDD854800A0E8C9 /* Sources */,
+				96CDF95D1DDD854800A0E8C9 /* Frameworks */,
+				96CDF95E1DDD854800A0E8C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "the-real-spectiv";
+			productName = "the-real-spectiv";
+			productReference = 96CDF9601DDD854800A0E8C9 /* the-real-spectiv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96CDF9731DDD854800A0E8C9 /* the-real-spectivTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CDF98B1DDD854900A0E8C9 /* Build configuration list for PBXNativeTarget "the-real-spectivTests" */;
+			buildPhases = (
+				96CDF9701DDD854800A0E8C9 /* Sources */,
+				96CDF9711DDD854800A0E8C9 /* Frameworks */,
+				96CDF9721DDD854800A0E8C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96CDF9761DDD854800A0E8C9 /* PBXTargetDependency */,
+			);
+			name = "the-real-spectivTests";
+			productName = "the-real-spectivTests";
+			productReference = 96CDF9741DDD854800A0E8C9 /* the-real-spectivTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96CDF97E1DDD854900A0E8C9 /* the-real-spectivUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96CDF98E1DDD854900A0E8C9 /* Build configuration list for PBXNativeTarget "the-real-spectivUITests" */;
+			buildPhases = (
+				96CDF97B1DDD854900A0E8C9 /* Sources */,
+				96CDF97C1DDD854900A0E8C9 /* Frameworks */,
+				96CDF97D1DDD854900A0E8C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96CDF9811DDD854900A0E8C9 /* PBXTargetDependency */,
+			);
+			name = "the-real-spectivUITests";
+			productName = "the-real-spectivUITests";
+			productReference = 96CDF97F1DDD854900A0E8C9 /* the-real-spectivUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96CDF9581DDD854800A0E8C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Jason Haugen";
+				TargetAttributes = {
+					96CDF95F1DDD854800A0E8C9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					96CDF9731DDD854800A0E8C9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96CDF95F1DDD854800A0E8C9;
+					};
+					96CDF97E1DDD854900A0E8C9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96CDF95F1DDD854800A0E8C9;
+					};
+				};
+			};
+			buildConfigurationList = 96CDF95B1DDD854800A0E8C9 /* Build configuration list for PBXProject "the-real-spectiv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96CDF9571DDD854800A0E8C9;
+			productRefGroup = 96CDF9611DDD854800A0E8C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96CDF95F1DDD854800A0E8C9 /* the-real-spectiv */,
+				96CDF9731DDD854800A0E8C9 /* the-real-spectivTests */,
+				96CDF97E1DDD854900A0E8C9 /* the-real-spectivUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96CDF95E1DDD854800A0E8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CDF96E1DDD854800A0E8C9 /* LaunchScreen.storyboard in Resources */,
+				96CDF96B1DDD854800A0E8C9 /* Assets.xcassets in Resources */,
+				96CDF9691DDD854800A0E8C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CDF9721DDD854800A0E8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CDF97D1DDD854900A0E8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96CDF95C1DDD854800A0E8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CDF9661DDD854800A0E8C9 /* ViewController.swift in Sources */,
+				96CDF9641DDD854800A0E8C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CDF9701DDD854800A0E8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CDF9791DDD854900A0E8C9 /* the_real_spectivTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CDF97B1DDD854900A0E8C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96CDF9841DDD854900A0E8C9 /* the_real_spectivUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96CDF9761DDD854800A0E8C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96CDF95F1DDD854800A0E8C9 /* the-real-spectiv */;
+			targetProxy = 96CDF9751DDD854800A0E8C9 /* PBXContainerItemProxy */;
+		};
+		96CDF9811DDD854900A0E8C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96CDF95F1DDD854800A0E8C9 /* the-real-spectiv */;
+			targetProxy = 96CDF9801DDD854900A0E8C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96CDF9671DDD854800A0E8C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96CDF9681DDD854800A0E8C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96CDF96C1DDD854800A0E8C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96CDF96D1DDD854800A0E8C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96CDF9861DDD854900A0E8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96CDF9871DDD854900A0E8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96CDF9891DDD854900A0E8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "the-real-spectiv/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.the-real-spectiv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		96CDF98A1DDD854900A0E8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "the-real-spectiv/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.the-real-spectiv";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		96CDF98C1DDD854900A0E8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "the-real-spectivTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.the-real-spectivTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/the-real-spectiv.app/the-real-spectiv";
+			};
+			name = Debug;
+		};
+		96CDF98D1DDD854900A0E8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "the-real-spectivTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.the-real-spectivTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/the-real-spectiv.app/the-real-spectiv";
+			};
+			name = Release;
+		};
+		96CDF98F1DDD854900A0E8C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "the-real-spectivUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.the-real-spectivUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "the-real-spectiv";
+			};
+			name = Debug;
+		};
+		96CDF9901DDD854900A0E8C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "the-real-spectivUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wustl.the-real-spectivUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "the-real-spectiv";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96CDF95B1DDD854800A0E8C9 /* Build configuration list for PBXProject "the-real-spectiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CDF9861DDD854900A0E8C9 /* Debug */,
+				96CDF9871DDD854900A0E8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96CDF9881DDD854900A0E8C9 /* Build configuration list for PBXNativeTarget "the-real-spectiv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CDF9891DDD854900A0E8C9 /* Debug */,
+				96CDF98A1DDD854900A0E8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96CDF98B1DDD854900A0E8C9 /* Build configuration list for PBXNativeTarget "the-real-spectivTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CDF98C1DDD854900A0E8C9 /* Debug */,
+				96CDF98D1DDD854900A0E8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		96CDF98E1DDD854900A0E8C9 /* Build configuration list for PBXNativeTarget "the-real-spectivUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96CDF98F1DDD854900A0E8C9 /* Debug */,
+				96CDF9901DDD854900A0E8C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96CDF9581DDD854800A0E8C9 /* Project object */;
+}
