@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FA51BB71DDEA4CA00747573 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FA51BB61DDEA4CA00747573 /* GoogleService-Info.plist */; };
+		4FA51BB91DDEA82A00747573 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA51BB81DDEA82A00747573 /* LoginViewController.swift */; };
+		4FA51BBB1DDEA90600747573 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA51BBA1DDEA90600747573 /* SignupViewController.swift */; };
+		65ACCABA6A2E1F9D2161D31C /* Pods_the_real_spectiv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FAC812D3FBB66D7BDEA76A9 /* Pods_the_real_spectiv.framework */; };
+		6CF0000BAB6A65EB4B995A7C /* Pods_the_real_spectivTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E24AF9C04F7B7FC0EF58D8 /* Pods_the_real_spectivTests.framework */; };
+		95E1AB0B7313D0EC6AF5CDEB /* Pods_the_real_spectivUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B264F0DBE410ABDA0A2AC0D /* Pods_the_real_spectivUITests.framework */; };
 		961EB7F61DDE59F60088DC55 /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961EB7F51DDE59F60088DC55 /* VoteViewController.swift */; };
 		961EB7F81DDE5BE90088DC55 /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961EB7F71DDE5BE90088DC55 /* FollowingViewController.swift */; };
 		961EB7FA1DDE5FC10088DC55 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961EB7F91DDE5FC10088DC55 /* PhotoViewController.swift */; };
@@ -41,9 +47,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FAC812D3FBB66D7BDEA76A9 /* Pods_the_real_spectiv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_the_real_spectiv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F1253AE99104145DAC9232 /* Pods-the-real-spectiv.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the-real-spectiv.debug.xcconfig"; path = "Pods/Target Support Files/Pods-the-real-spectiv/Pods-the-real-spectiv.debug.xcconfig"; sourceTree = "<group>"; };
+		27975A1F748C4455DF6EBCC9 /* Pods-the-real-spectivTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the-real-spectivTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-the-real-spectivTests/Pods-the-real-spectivTests.release.xcconfig"; sourceTree = "<group>"; };
+		4FA51BB61DDEA4CA00747573 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4FA51BB81DDEA82A00747573 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4FA51BBA1DDEA90600747573 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		66E24AF9C04F7B7FC0EF58D8 /* Pods_the_real_spectivTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_the_real_spectivTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B264F0DBE410ABDA0A2AC0D /* Pods_the_real_spectivUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_the_real_spectivUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		708CE4155B3EA33CFB6F1A83 /* Pods-the-real-spectivUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the-real-spectivUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-the-real-spectivUITests/Pods-the-real-spectivUITests.release.xcconfig"; sourceTree = "<group>"; };
 		961EB7F51DDE59F60088DC55 /* VoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteViewController.swift; sourceTree = "<group>"; };
 		961EB7F71DDE5BE90088DC55 /* FollowingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
 		961EB7F91DDE5FC10088DC55 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		96C0735000438A2C6893DD29 /* Pods-the-real-spectiv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the-real-spectiv.release.xcconfig"; path = "Pods/Target Support Files/Pods-the-real-spectiv/Pods-the-real-spectiv.release.xcconfig"; sourceTree = "<group>"; };
 		96CDF9601DDD854800A0E8C9 /* the-real-spectiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "the-real-spectiv.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CDF9631DDD854800A0E8C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96CDF9651DDD854800A0E8C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +77,8 @@
 		96CDF9961DDD85BD00A0E8C9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		96CDF9971DDD85BD00A0E8C9 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		96CDF9981DDD85BD00A0E8C9 /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCell.swift; sourceTree = "<group>"; };
+		F465EFB9054AB59EA7E4E909 /* Pods-the-real-spectivTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the-real-spectivTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-the-real-spectivTests/Pods-the-real-spectivTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F468872E9AD08C57FD3450B6 /* Pods-the-real-spectivUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the-real-spectivUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-the-real-spectivUITests/Pods-the-real-spectivUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65ACCABA6A2E1F9D2161D31C /* Pods_the_real_spectiv.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CF0000BAB6A65EB4B995A7C /* Pods_the_real_spectivTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +102,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95E1AB0B7313D0EC6AF5CDEB /* Pods_the_real_spectivUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0431DC565929B9003E5B0276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FAC812D3FBB66D7BDEA76A9 /* Pods_the_real_spectiv.framework */,
+				66E24AF9C04F7B7FC0EF58D8 /* Pods_the_real_spectivTests.framework */,
+				6B264F0DBE410ABDA0A2AC0D /* Pods_the_real_spectivUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A89BD9C0965E2CFC5F6A391 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22F1253AE99104145DAC9232 /* Pods-the-real-spectiv.debug.xcconfig */,
+				96C0735000438A2C6893DD29 /* Pods-the-real-spectiv.release.xcconfig */,
+				F465EFB9054AB59EA7E4E909 /* Pods-the-real-spectivTests.debug.xcconfig */,
+				27975A1F748C4455DF6EBCC9 /* Pods-the-real-spectivTests.release.xcconfig */,
+				F468872E9AD08C57FD3450B6 /* Pods-the-real-spectivUITests.debug.xcconfig */,
+				708CE4155B3EA33CFB6F1A83 /* Pods-the-real-spectivUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		96CDF9571DDD854800A0E8C9 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +139,8 @@
 				96CDF9771DDD854900A0E8C9 /* the-real-spectivTests */,
 				96CDF9821DDD854900A0E8C9 /* the-real-spectivUITests */,
 				96CDF9611DDD854800A0E8C9 /* Products */,
+				4A89BD9C0965E2CFC5F6A391 /* Pods */,
+				0431DC565929B9003E5B0276 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +170,9 @@
 				96CDF9981DDD85BD00A0E8C9 /* PictureCollectionViewCell.swift */,
 				96CDF96F1DDD854800A0E8C9 /* Info.plist */,
 				96CDF9931DDD85A300A0E8C9 /* Sam.jpg */,
+				4FA51BB61DDEA4CA00747573 /* GoogleService-Info.plist */,
+				4FA51BB81DDEA82A00747573 /* LoginViewController.swift */,
+				4FA51BBA1DDEA90600747573 /* SignupViewController.swift */,
 			);
 			path = "the-real-spectiv";
 			sourceTree = "<group>";
@@ -153,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96CDF9881DDD854900A0E8C9 /* Build configuration list for PBXNativeTarget "the-real-spectiv" */;
 			buildPhases = (
+				2D30D5673F56B5AACCC59376 /* [CP] Check Pods Manifest.lock */,
 				96CDF95C1DDD854800A0E8C9 /* Sources */,
 				96CDF95D1DDD854800A0E8C9 /* Frameworks */,
 				96CDF95E1DDD854800A0E8C9 /* Resources */,
+				1504D4AF11673B70CF3DC628 /* [CP] Embed Pods Frameworks */,
+				523DB3851D2611E9865CC4A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96CDF98B1DDD854900A0E8C9 /* Build configuration list for PBXNativeTarget "the-real-spectivTests" */;
 			buildPhases = (
+				A1DAF57E45E24D028F165A93 /* [CP] Check Pods Manifest.lock */,
 				96CDF9701DDD854800A0E8C9 /* Sources */,
 				96CDF9711DDD854800A0E8C9 /* Frameworks */,
 				96CDF9721DDD854800A0E8C9 /* Resources */,
+				32565ACE20EC384B77F94D27 /* [CP] Embed Pods Frameworks */,
+				1D0DD6A7CCA2BF139344650E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96CDF98E1DDD854900A0E8C9 /* Build configuration list for PBXNativeTarget "the-real-spectivUITests" */;
 			buildPhases = (
+				639D64BFED0A8F4FFDB745E1 /* [CP] Check Pods Manifest.lock */,
 				96CDF97B1DDD854900A0E8C9 /* Sources */,
 				96CDF97C1DDD854900A0E8C9 /* Frameworks */,
 				96CDF97D1DDD854900A0E8C9 /* Resources */,
+				F1AAE5BE1EFDFE2CB6DD4C61 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,6 +312,7 @@
 			files = (
 				96CDF9921DDD858C00A0E8C9 /* Main.storyboard in Resources */,
 				96CDF96E1DDD854800A0E8C9 /* LaunchScreen.storyboard in Resources */,
+				4FA51BB71DDEA4CA00747573 /* GoogleService-Info.plist in Resources */,
 				96CDF96B1DDD854800A0E8C9 /* Assets.xcassets in Resources */,
 				96CDF9941DDD85A300A0E8C9 /* Sam.jpg in Resources */,
 			);
@@ -276,12 +334,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1504D4AF11673B70CF3DC628 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-the-real-spectiv/Pods-the-real-spectiv-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D0DD6A7CCA2BF139344650E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-the-real-spectivTests/Pods-the-real-spectivTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D30D5673F56B5AACCC59376 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32565ACE20EC384B77F94D27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-the-real-spectivTests/Pods-the-real-spectivTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		523DB3851D2611E9865CC4A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-the-real-spectiv/Pods-the-real-spectiv-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		639D64BFED0A8F4FFDB745E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1DAF57E45E24D028F165A93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1AAE5BE1EFDFE2CB6DD4C61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-the-real-spectivUITests/Pods-the-real-spectivUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96CDF95C1DDD854800A0E8C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA51BB91DDEA82A00747573 /* LoginViewController.swift in Sources */,
 				961EB7F81DDE5BE90088DC55 /* FollowingViewController.swift in Sources */,
+				4FA51BBB1DDEA90600747573 /* SignupViewController.swift in Sources */,
 				96CDF99B1DDD85BD00A0E8C9 /* SearchViewController.swift in Sources */,
 				96CDF9661DDD854800A0E8C9 /* ViewController.swift in Sources */,
 				961EB7F61DDE59F60088DC55 /* VoteViewController.swift in Sources */,
@@ -428,6 +611,7 @@
 		};
 		96CDF9891DDD854900A0E8C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F1253AE99104145DAC9232 /* Pods-the-real-spectiv.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "the-real-spectiv/Info.plist";
@@ -440,6 +624,7 @@
 		};
 		96CDF98A1DDD854900A0E8C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C0735000438A2C6893DD29 /* Pods-the-real-spectiv.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "the-real-spectiv/Info.plist";
@@ -452,6 +637,7 @@
 		};
 		96CDF98C1DDD854900A0E8C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F465EFB9054AB59EA7E4E909 /* Pods-the-real-spectivTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +652,7 @@
 		};
 		96CDF98D1DDD854900A0E8C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27975A1F748C4455DF6EBCC9 /* Pods-the-real-spectivTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +667,7 @@
 		};
 		96CDF98F1DDD854900A0E8C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F468872E9AD08C57FD3450B6 /* Pods-the-real-spectivUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "the-real-spectivUITests/Info.plist";
@@ -493,6 +681,7 @@
 		};
 		96CDF9901DDD854900A0E8C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708CE4155B3EA33CFB6F1A83 /* Pods-the-real-spectivUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "the-real-spectivUITests/Info.plist";

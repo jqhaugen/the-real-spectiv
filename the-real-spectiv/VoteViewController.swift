@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import Firebase
 
 class VoteViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate{
     
     @IBOutlet weak var voteCollection: UICollectionView!
     
     var selection: Int = 0;
+    let rootRef = FIRDatabase.database().reference()
     
     override func viewDidLoad() {
         super.viewDidLoad()

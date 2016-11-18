@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import Firebase
 
 class FollowingViewController: UIViewController {
 
+    let rootRef = FIRDatabase.database().reference()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

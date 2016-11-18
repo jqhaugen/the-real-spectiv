@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import Firebase
 
 class PictureCollectionViewCell: UICollectionViewCell {
     
+    let rootRef = FIRDatabase.database().reference()
     @IBOutlet weak var theImage: UIImageView!
     
     
