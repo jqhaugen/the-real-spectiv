@@ -3,6 +3,8 @@
 
 pod 'Firebase/Core'
 pod 'Firebase/Database'
+pod 'Firebase/Auth'
+pod 'Firebase/Storage'
 
 target 'the-real-spectiv' do
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks

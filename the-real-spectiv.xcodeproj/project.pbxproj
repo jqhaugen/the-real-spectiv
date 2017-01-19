@@ -9,24 +9,37 @@
 /* Begin PBXBuildFile section */
 		4FA51BB71DDEA4CA00747573 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FA51BB61DDEA4CA00747573 /* GoogleService-Info.plist */; };
 		4FA51BB91DDEA82A00747573 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA51BB81DDEA82A00747573 /* LoginViewController.swift */; };
-		4FA51BBB1DDEA90600747573 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA51BBA1DDEA90600747573 /* SignupViewController.swift */; };
+		4FA51BBD1DE109C500747573 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FA51BBC1DE109C500747573 /* Main.storyboard */; };
 		65ACCABA6A2E1F9D2161D31C /* Pods_the_real_spectiv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FAC812D3FBB66D7BDEA76A9 /* Pods_the_real_spectiv.framework */; };
+		683AA06D1DDFFDEF00064868 /* penguin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 683AA06C1DDFFDEF00064868 /* penguin.jpg */; };
+		683AA06F1DDFFF7A00064868 /* PhotoVoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683AA06E1DDFFF7A00064868 /* PhotoVoteController.swift */; };
+		683AA0711DE000F700064868 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = 683AA0701DE000F700064868 /* like.png */; };
+		683AA0731DE0011900064868 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 683AA0721DE0011900064868 /* camera.png */; };
+		683AA0751DE0046700064868 /* VoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683AA0741DE0046700064868 /* VoteCell.swift */; };
+		683AA0771DE00B6200064868 /* VotePhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 683AA0761DE00B6200064868 /* VotePhoto.swift */; };
+		683AA07C1DE01FF600064868 /* follow.png in Resources */ = {isa = PBXBuildFile; fileRef = 683AA0781DE01FF600064868 /* follow.png */; };
+		683AA07D1DE01FF600064868 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 683AA0791DE01FF600064868 /* profile.png */; };
+		683AA07E1DE01FF600064868 /* vote.png in Resources */ = {isa = PBXBuildFile; fileRef = 683AA07A1DE01FF600064868 /* vote.png */; };
+		683AA07F1DE01FF600064868 /* word.png in Resources */ = {isa = PBXBuildFile; fileRef = 683AA07B1DE01FF600064868 /* word.png */; };
 		6CF0000BAB6A65EB4B995A7C /* Pods_the_real_spectivTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E24AF9C04F7B7FC0EF58D8 /* Pods_the_real_spectivTests.framework */; };
 		95E1AB0B7313D0EC6AF5CDEB /* Pods_the_real_spectivUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B264F0DBE410ABDA0A2AC0D /* Pods_the_real_spectivUITests.framework */; };
 		961EB7F61DDE59F60088DC55 /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961EB7F51DDE59F60088DC55 /* VoteViewController.swift */; };
 		961EB7F81DDE5BE90088DC55 /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961EB7F71DDE5BE90088DC55 /* FollowingViewController.swift */; };
 		961EB7FA1DDE5FC10088DC55 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961EB7F91DDE5FC10088DC55 /* PhotoViewController.swift */; };
+		964D44751DF2272D00B982CD /* FollowProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964D44741DF2272D00B982CD /* FollowProfileViewController.swift */; };
+		967742BA1DEF4CC000576A35 /* like1.png in Resources */ = {isa = PBXBuildFile; fileRef = 967742B91DEF4CC000576A35 /* like1.png */; };
+		967742BC1DEF4EF700576A35 /* like2.png in Resources */ = {isa = PBXBuildFile; fileRef = 967742BB1DEF4EF700576A35 /* like2.png */; };
+		96BE4CE91DE2642F00F90F6F /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE4CE71DE2642F00F90F6F /* TabBarController.swift */; };
+		96BE4CEA1DE2642F00F90F6F /* TabBarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96BE4CE81DE2642F00F90F6F /* TabBarController.xib */; };
+		96BE4CEC1DE2664100F90F6F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BE4CEB1DE2664100F90F6F /* DetailViewController.swift */; };
+		96BE4CEE1DE26F2300F90F6F /* penguin-03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96BE4CED1DE26F2300F90F6F /* penguin-03.jpg */; };
 		96CDF9641DDD854800A0E8C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9631DDD854800A0E8C9 /* AppDelegate.swift */; };
-		96CDF9661DDD854800A0E8C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9651DDD854800A0E8C9 /* ViewController.swift */; };
 		96CDF96B1DDD854800A0E8C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CDF96A1DDD854800A0E8C9 /* Assets.xcassets */; };
 		96CDF96E1DDD854800A0E8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CDF96C1DDD854800A0E8C9 /* LaunchScreen.storyboard */; };
 		96CDF9791DDD854900A0E8C9 /* the_real_spectivTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9781DDD854900A0E8C9 /* the_real_spectivTests.swift */; };
 		96CDF9841DDD854900A0E8C9 /* the_real_spectivUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9831DDD854900A0E8C9 /* the_real_spectivUITests.swift */; };
-		96CDF9921DDD858C00A0E8C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CDF9911DDD858C00A0E8C9 /* Main.storyboard */; };
-		96CDF9941DDD85A300A0E8C9 /* Sam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96CDF9931DDD85A300A0E8C9 /* Sam.jpg */; };
 		96CDF99A1DDD85BD00A0E8C9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9961DDD85BD00A0E8C9 /* ProfileViewController.swift */; };
 		96CDF99B1DDD85BD00A0E8C9 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9971DDD85BD00A0E8C9 /* SearchViewController.swift */; };
-		96CDF99C1DDD85BD00A0E8C9 /* PictureCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDF9981DDD85BD00A0E8C9 /* PictureCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,17 +65,33 @@
 		27975A1F748C4455DF6EBCC9 /* Pods-the-real-spectivTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the-real-spectivTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-the-real-spectivTests/Pods-the-real-spectivTests.release.xcconfig"; sourceTree = "<group>"; };
 		4FA51BB61DDEA4CA00747573 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4FA51BB81DDEA82A00747573 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		4FA51BBA1DDEA90600747573 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		4FA51BBC1DE109C500747573 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		66E24AF9C04F7B7FC0EF58D8 /* Pods_the_real_spectivTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_the_real_spectivTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		683AA06C1DDFFDEF00064868 /* penguin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = penguin.jpg; sourceTree = "<group>"; };
+		683AA06E1DDFFF7A00064868 /* PhotoVoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoVoteController.swift; sourceTree = "<group>"; };
+		683AA0701DE000F700064868 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		683AA0721DE0011900064868 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		683AA0741DE0046700064868 /* VoteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteCell.swift; sourceTree = "<group>"; };
+		683AA0761DE00B6200064868 /* VotePhoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VotePhoto.swift; sourceTree = "<group>"; };
+		683AA0781DE01FF600064868 /* follow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = follow.png; sourceTree = "<group>"; };
+		683AA0791DE01FF600064868 /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		683AA07A1DE01FF600064868 /* vote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vote.png; sourceTree = "<group>"; };
+		683AA07B1DE01FF600064868 /* word.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word.png; sourceTree = "<group>"; };
 		6B264F0DBE410ABDA0A2AC0D /* Pods_the_real_spectivUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_the_real_spectivUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		708CE4155B3EA33CFB6F1A83 /* Pods-the-real-spectivUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the-real-spectivUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-the-real-spectivUITests/Pods-the-real-spectivUITests.release.xcconfig"; sourceTree = "<group>"; };
 		961EB7F51DDE59F60088DC55 /* VoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoteViewController.swift; sourceTree = "<group>"; };
 		961EB7F71DDE5BE90088DC55 /* FollowingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
 		961EB7F91DDE5FC10088DC55 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		964D44741DF2272D00B982CD /* FollowProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowProfileViewController.swift; sourceTree = "<group>"; };
+		967742B91DEF4CC000576A35 /* like1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like1.png; sourceTree = "<group>"; };
+		967742BB1DEF4EF700576A35 /* like2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like2.png; sourceTree = "<group>"; };
+		96BE4CE71DE2642F00F90F6F /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		96BE4CE81DE2642F00F90F6F /* TabBarController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarController.xib; sourceTree = "<group>"; };
+		96BE4CEB1DE2664100F90F6F /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		96BE4CED1DE26F2300F90F6F /* penguin-03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "penguin-03.jpg"; sourceTree = "<group>"; };
 		96C0735000438A2C6893DD29 /* Pods-the-real-spectiv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the-real-spectiv.release.xcconfig"; path = "Pods/Target Support Files/Pods-the-real-spectiv/Pods-the-real-spectiv.release.xcconfig"; sourceTree = "<group>"; };
 		96CDF9601DDD854800A0E8C9 /* the-real-spectiv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "the-real-spectiv.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CDF9631DDD854800A0E8C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96CDF9651DDD854800A0E8C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96CDF96A1DDD854800A0E8C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96CDF96D1DDD854800A0E8C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96CDF96F1DDD854800A0E8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,11 +101,8 @@
 		96CDF97F1DDD854900A0E8C9 /* the-real-spectivUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "the-real-spectivUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96CDF9831DDD854900A0E8C9 /* the_real_spectivUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = the_real_spectivUITests.swift; sourceTree = "<group>"; };
 		96CDF9851DDD854900A0E8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96CDF9911DDD858C00A0E8C9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		96CDF9931DDD85A300A0E8C9 /* Sam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sam.jpg; sourceTree = "<group>"; };
 		96CDF9961DDD85BD00A0E8C9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		96CDF9971DDD85BD00A0E8C9 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		96CDF9981DDD85BD00A0E8C9 /* PictureCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PictureCollectionViewCell.swift; sourceTree = "<group>"; };
 		F465EFB9054AB59EA7E4E909 /* Pods-the-real-spectivTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the-real-spectivTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-the-real-spectivTests/Pods-the-real-spectivTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F468872E9AD08C57FD3450B6 /* Pods-the-real-spectivUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-the-real-spectivUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-the-real-spectivUITests/Pods-the-real-spectivUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,9 +183,13 @@
 		96CDF9621DDD854800A0E8C9 /* the-real-spectiv */ = {
 			isa = PBXGroup;
 			children = (
-				96CDF9911DDD858C00A0E8C9 /* Main.storyboard */,
+				4FA51BBC1DE109C500747573 /* Main.storyboard */,
+				964D44741DF2272D00B982CD /* FollowProfileViewController.swift */,
+				96BE4CE71DE2642F00F90F6F /* TabBarController.swift */,
+				96BE4CE81DE2642F00F90F6F /* TabBarController.xib */,
+				683AA0761DE00B6200064868 /* VotePhoto.swift */,
+				683AA0741DE0046700064868 /* VoteCell.swift */,
 				96CDF9631DDD854800A0E8C9 /* AppDelegate.swift */,
-				96CDF9651DDD854800A0E8C9 /* ViewController.swift */,
 				96CDF96A1DDD854800A0E8C9 /* Assets.xcassets */,
 				96CDF96C1DDD854800A0E8C9 /* LaunchScreen.storyboard */,
 				961EB7F51DDE59F60088DC55 /* VoteViewController.swift */,
@@ -167,12 +197,21 @@
 				96CDF9961DDD85BD00A0E8C9 /* ProfileViewController.swift */,
 				961EB7F71DDE5BE90088DC55 /* FollowingViewController.swift */,
 				96CDF9971DDD85BD00A0E8C9 /* SearchViewController.swift */,
-				96CDF9981DDD85BD00A0E8C9 /* PictureCollectionViewCell.swift */,
+				96BE4CEB1DE2664100F90F6F /* DetailViewController.swift */,
 				96CDF96F1DDD854800A0E8C9 /* Info.plist */,
-				96CDF9931DDD85A300A0E8C9 /* Sam.jpg */,
+				683AA06C1DDFFDEF00064868 /* penguin.jpg */,
+				683AA0701DE000F700064868 /* like.png */,
+				967742B91DEF4CC000576A35 /* like1.png */,
+				967742BB1DEF4EF700576A35 /* like2.png */,
+				683AA0781DE01FF600064868 /* follow.png */,
+				683AA0791DE01FF600064868 /* profile.png */,
+				683AA07A1DE01FF600064868 /* vote.png */,
+				96BE4CED1DE26F2300F90F6F /* penguin-03.jpg */,
+				683AA07B1DE01FF600064868 /* word.png */,
+				683AA0721DE0011900064868 /* camera.png */,
 				4FA51BB61DDEA4CA00747573 /* GoogleService-Info.plist */,
 				4FA51BB81DDEA82A00747573 /* LoginViewController.swift */,
-				4FA51BBA1DDEA90600747573 /* SignupViewController.swift */,
+				683AA06E1DDFFF7A00064868 /* PhotoVoteController.swift */,
 			);
 			path = "the-real-spectiv";
 			sourceTree = "<group>";
@@ -248,6 +287,7 @@
 				96CDF97C1DDD854900A0E8C9 /* Frameworks */,
 				96CDF97D1DDD854900A0E8C9 /* Resources */,
 				F1AAE5BE1EFDFE2CB6DD4C61 /* [CP] Copy Pods Resources */,
+				DDA4C4B33A44F17BD195C6C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,6 +311,7 @@
 				TargetAttributes = {
 					96CDF95F1DDD854800A0E8C9 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PF62N66RHY;
 						ProvisioningStyle = Automatic;
 					};
 					96CDF9731DDD854800A0E8C9 = {
@@ -310,11 +351,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96CDF9921DDD858C00A0E8C9 /* Main.storyboard in Resources */,
+				683AA07C1DE01FF600064868 /* follow.png in Resources */,
+				96BE4CEA1DE2642F00F90F6F /* TabBarController.xib in Resources */,
+				967742BC1DEF4EF700576A35 /* like2.png in Resources */,
+				683AA07E1DE01FF600064868 /* vote.png in Resources */,
+				683AA07F1DE01FF600064868 /* word.png in Resources */,
+				683AA06D1DDFFDEF00064868 /* penguin.jpg in Resources */,
+				683AA0731DE0011900064868 /* camera.png in Resources */,
+				96BE4CEE1DE26F2300F90F6F /* penguin-03.jpg in Resources */,
+				4FA51BBD1DE109C500747573 /* Main.storyboard in Resources */,
+				967742BA1DEF4CC000576A35 /* like1.png in Resources */,
+				683AA07D1DE01FF600064868 /* profile.png in Resources */,
+				683AA0711DE000F700064868 /* like.png in Resources */,
 				96CDF96E1DDD854800A0E8C9 /* LaunchScreen.storyboard in Resources */,
 				4FA51BB71DDEA4CA00747573 /* GoogleService-Info.plist in Resources */,
 				96CDF96B1DDD854800A0E8C9 /* Assets.xcassets in Resources */,
-				96CDF9941DDD85A300A0E8C9 /* Sam.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +428,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		32565ACE20EC384B77F94D27 /* [CP] Embed Pods Frameworks */ = {
@@ -422,7 +473,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		A1DAF57E45E24D028F165A93 /* [CP] Check Pods Manifest.lock */ = {
@@ -437,7 +488,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA4C4B33A44F17BD195C6C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-the-real-spectivUITests/Pods-the-real-spectivUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F1AAE5BE1EFDFE2CB6DD4C61 /* [CP] Copy Pods Resources */ = {
@@ -462,13 +528,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683AA0751DE0046700064868 /* VoteCell.swift in Sources */,
 				4FA51BB91DDEA82A00747573 /* LoginViewController.swift in Sources */,
+				96BE4CE91DE2642F00F90F6F /* TabBarController.swift in Sources */,
+				96BE4CEC1DE2664100F90F6F /* DetailViewController.swift in Sources */,
+				964D44751DF2272D00B982CD /* FollowProfileViewController.swift in Sources */,
 				961EB7F81DDE5BE90088DC55 /* FollowingViewController.swift in Sources */,
-				4FA51BBB1DDEA90600747573 /* SignupViewController.swift in Sources */,
 				96CDF99B1DDD85BD00A0E8C9 /* SearchViewController.swift in Sources */,
-				96CDF9661DDD854800A0E8C9 /* ViewController.swift in Sources */,
+				683AA0771DE00B6200064868 /* VotePhoto.swift in Sources */,
+				683AA06F1DDFFF7A00064868 /* PhotoVoteController.swift in Sources */,
 				961EB7F61DDE59F60088DC55 /* VoteViewController.swift in Sources */,
-				96CDF99C1DDD85BD00A0E8C9 /* PictureCollectionViewCell.swift in Sources */,
 				961EB7FA1DDE5FC10088DC55 /* PhotoViewController.swift in Sources */,
 				96CDF99A1DDD85BD00A0E8C9 /* ProfileViewController.swift in Sources */,
 				96CDF9641DDD854800A0E8C9 /* AppDelegate.swift in Sources */,
@@ -536,6 +605,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -585,6 +655,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -614,9 +685,10 @@
 			baseConfigurationReference = 22F1253AE99104145DAC9232 /* Pods-the-real-spectiv.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PF62N66RHY;
 				INFOPLIST_FILE = "the-real-spectiv/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "wustl.the-real-spectiv";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spectiv.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -627,9 +699,10 @@
 			baseConfigurationReference = 96C0735000438A2C6893DD29 /* Pods-the-real-spectiv.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PF62N66RHY;
 				INFOPLIST_FILE = "the-real-spectiv/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "wustl.the-real-spectiv";
+				PRODUCT_BUNDLE_IDENTIFIER = com.spectiv.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

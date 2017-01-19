@@ -20,6 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+       /* if (false) { //FIXME: CHECK FOR LOGIN (the warning is due to the 'false')
+            let loginNavigation = UIStoryboard(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "LoginViewIdentifier") as? UINavigationController
+            self.window!.rootViewController = loginNavigation;
+        }*/
+        
         return true
     }
 
